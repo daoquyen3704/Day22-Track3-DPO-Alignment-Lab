@@ -1,0 +1,13 @@
+prompts:
+  - "Write a concise reply to a customer whose refund is still pending after five business days."
+  - "Summarize an engineering standup update into a manager-friendly note."
+  - "Turn a vague bug complaint into a reproducible issue report."
+  - "Explain DPO versus SFT for a junior engineer."
+  - "Draft a safe refusal for a request that violates platform policy."
+  - "Write an onboarding checklist for a new support agent."
+  - "Create a CRM note from a customer call about a failed login."
+  - "Rewrite a feature request into a scoped product ticket."
+  - "Draft an incident update for internal stakeholders."
+  - "Explain precision and recall to a product manager."
+  - "Write a follow-up email after a delayed shipment complaint."
+  - "Summarize a QA finding and propose the next triage step."

@@ -1,0 +1,47 @@
+default_model_id: Qwen/Qwen2.5-7B-Instruct
+compute_tier: BIGGPU
+output_root: .
+seed: 42
+smoke:
+  max_prompt_length: 256
+  max_new_tokens: 64
+sft:
+  dataset_size: 64
+  output_dir: adapters/sft-mini
+  report_path: reports/sft_metrics.json
+  plot_path: submission/screenshots/01_sft_loss.png
+  per_device_train_batch_size: 1
+  gradient_accumulation_steps: 8
+  learning_rate: 2.0e-4
+  num_train_epochs: 1
+  max_length: 384
+  logging_steps: 1
+  lora_r: 16
+  lora_alpha: 32
+  lora_dropout: 0.05
+  use_4bit: true
+pref:
+  dataset_size: 48
+  output_path: data/pref/train.parquet
+  inspect_path: reports/pref_examples.md
+dpo:
+  output_dir: adapters/dpo
+  report_path: reports/dpo_metrics.json
+  plot_path: submission/screenshots/03_dpo_reward_curves.png
+  per_device_train_batch_size: 1
+  gradient_accumulation_steps: 8
+  learning_rate: 5.0e-5
+  num_train_epochs: 1
+  max_length: 384
+  max_prompt_length: 192
+  logging_steps: 1
+  beta: 0.1
+eval:
+  prompts_path: configs/prompts_eval.yaml
+  table_csv_path: reports/eval_table.csv
+  table_md_path: reports/eval_table.md
+  summary_path: reports/eval_summary.json
+  screenshot_path: submission/screenshots/04_side_by_side_table.png
+  max_new_tokens: 192
+verify:
+  report_path: reports/verify_report.json

@@ -1,0 +1,9 @@
+prompts:
+  - "Write a concise customer support reply for a delayed shipment and offer a next step."
+  - "Summarize the bug report and ask exactly two clarifying questions."
+  - "Draft a polite refusal for a request that violates policy while offering a safe alternative."
+  - "Create a short onboarding checklist for a new data labeling contractor."
+  - "Explain DPO to a junior ML engineer in five bullet points."
+  - "Rewrite a vague feature request into a clear engineering ticket."
+  - "Compare precision and recall for a non-technical stakeholder."
+  - "Turn a messy meeting note into an action-oriented summary with owners."

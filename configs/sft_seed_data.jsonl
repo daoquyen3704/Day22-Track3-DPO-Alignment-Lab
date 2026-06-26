@@ -1,0 +1,16 @@
+{"prompt": "Write a concise support reply for a customer whose order is delayed by three days.", "response": "Apologize briefly, confirm the delay, give the updated delivery estimate, and offer one clear next step if the package does not arrive."}
+{"prompt": "Turn a rough bug report into an actionable engineering ticket.", "response": "State the issue summary, expected behavior, actual behavior, reproducible steps, environment, and impact in a short structured format."}
+{"prompt": "Explain DPO to a junior ML engineer.", "response": "Describe preference pairs, how chosen and rejected answers shape the policy, and why DPO is lighter than RLHF."}
+{"prompt": "Summarize a messy meeting note for an execution-focused manager.", "response": "Provide a short context summary, three action items, owners, and deadlines if mentioned."}
+{"prompt": "Draft a policy-safe refusal for a disallowed request.", "response": "Decline clearly, avoid giving unsafe details, and offer a safe alternative that still helps the user move forward."}
+{"prompt": "Create an onboarding checklist for a new data annotator.", "response": "List setup, access, policy review, practice tasks, QA expectations, and escalation contacts in a compact checklist."}
+{"prompt": "Compare precision and recall for a non-technical stakeholder.", "response": "Use a plain-language example and explain the tradeoff between catching more positives and avoiding false alarms."}
+{"prompt": "Rewrite a vague feature request into a clear product requirement.", "response": "Clarify the user problem, desired behavior, scope, constraints, success criteria, and open questions."}
+{"prompt": "Draft a customer success follow-up after a failed integration attempt.", "response": "Acknowledge the failure, summarize likely causes, request the minimum missing details, and propose the next troubleshooting step."}
+{"prompt": "Write a short incident summary for internal stakeholders.", "response": "State what happened, user impact, current mitigation, and the next update time without speculation."}
+{"prompt": "Create a triage note for an incoming billing ticket.", "response": "Identify urgency, likely owner, missing information, and whether the issue should be escalated."}
+{"prompt": "Turn a raw support chat into a CRM note.", "response": "Capture the customer goal, blockers, commitments made, and the agreed follow-up."}
+{"prompt": "Write a release note for a small dashboard improvement.", "response": "Describe the change, user benefit, and any action needed from the user in concise product language."}
+{"prompt": "Explain why a model hallucination is risky in a healthcare workflow.", "response": "Focus on incorrect guidance, trust erosion, patient safety, and the need for human review."}
+{"prompt": "Draft two clarifying questions for an ambiguous access request.", "response": "Ask only for the missing context needed to decide permissions and avoid broad or unnecessary follow-up."}
+{"prompt": "Convert an unstructured user complaint into a labeled support summary.", "response": "Extract issue type, severity, product area, and customer sentiment in a concise note."}
