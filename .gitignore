@@ -21,4 +21,7 @@ reports/*
 !reports/.gitkeep
 submission/screenshots/*
 !submission/screenshots/.gitkeep
+!submission/screenshots/*.png
+!submission/screenshots/*.jpg
+!submission/screenshots/*.md
 outputs/
